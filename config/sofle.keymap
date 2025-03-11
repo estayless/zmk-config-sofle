@@ -24,7 +24,7 @@
         };
 
         tilde {
-            bindings = <&kp TILDE>;
+            bindings = <&kp TILDE2>;
             key-positions = <50 44>;
         };
     };
