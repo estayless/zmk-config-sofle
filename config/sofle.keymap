@@ -15,7 +15,7 @@
 
         plus-ecual {
             bindings = <&kp EQUAL>;
-            key-positions = <11>;
+            key-positions = <12>;
         };
     };
 
