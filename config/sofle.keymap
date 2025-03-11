@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        plus-ecual {
+            bindings = <&kp EQUAL>;
+            key-positions = <11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
