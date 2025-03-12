@@ -14,18 +14,13 @@
         compatible = "zmk,combos";
 
         semi-colon {
-            binding = <&kp SEMI>;
+            bindings = <&kp SEMI>;
             key-positions = <46 50>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <47 50>;
-        };
-
-        tilde {
-            bindings = <&kp TILDE2>;
-            key-positions = <50 44>;
         };
     };
 
